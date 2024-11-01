@@ -1,0 +1,12 @@
+<suite name="Sauce lab demo" thread-count="1" preserve-order="true" >
+    <test name="Sauce Lab Demo login">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Sauce Lab Demo Products Page">
+        <classes>
+            <class name="tests.ProductsPageTest"/>
+        </classes>
+    </test>
+</suite>
